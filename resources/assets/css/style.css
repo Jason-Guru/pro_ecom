@@ -1,0 +1,105 @@
+@font-face {
+    font-family: graphik;
+    src: url('../fonts/graphik-regular-webfont.woff');
+}
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.text-light{
+    color:white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+    /* font-family: graphik;
+    font-size: .9rem; */
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+.pl-65{
+    padding-left:30px;
+}
+.pl-70{
+    padding-left:70px;
+}
+
+
+.pr-70{
+    padding-right:30px;
+}
+
+a{
+    color: black !important;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#category a:hover{
+   background: #f8f9fa!important; 
+}
+
+
+
+#products a:hover{
+    border:none;
+    border-radius: 3px;
+    box-shadow: 1px -1px 2px 1px lightgray;
+}
+
+.btn-outline-orange {
+    color: #FF6905;
+    background-color: transparent;
+    background-image: none;
+    border-color: #FF6905;
+}
+
+@media (min-width: 768px){
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.b20{
+    margin-bottom: 20px;
+}
+}
+h2,h3,h4{
+    font-family:graphik;
+}
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .pl-70{
+        padding-left:10px;
+    }
+
+    .pr-70{
+        padding-right:15px;
+    }
+
+    #brand-logo h2{
+        font-size:23px;
+    }
+
+    .pl-65{
+        padding-left:0;
+    }
+}
+
