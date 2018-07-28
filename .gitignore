@@ -1,7 +1,7 @@
 /node_modules/
 /public/hot
 /public/storage
-/public/fonts
+public/fonts
 /public/img
 /public/images
 /public/fonts/vendor
@@ -27,3 +27,4 @@ storage/app/public/storage
 \.php_cs\.cache
 public/css
 public/js
+laracom.zip

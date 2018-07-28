@@ -57,6 +57,7 @@ mix
     )
     .copyDirectory('node_modules/datatables/media/images', 'public/images')
     .copyDirectory('node_modules/font-awesome/fonts', 'public/fonts')
+    .copyDirectory('resources/assets/fonts', 'public/fonts')
     .copyDirectory('resources/assets/admin-lte/img', 'public/img')
     .copyDirectory('resources/assets/images', 'public/images')
     .copy('resources/assets/js/scripts.js', 'public/js/scripts.js')
